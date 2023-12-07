@@ -1,0 +1,63 @@
+.form-input-material {
+    --input-default-border-color: white;
+    --input-border-bottom-color: white;
+    --input-border-bottom-width: 2px;
+    min-width: 90%;
+    margin: 12px 0;
+    width: 100%;
+ }
+
+ .form-control-material {
+    width: 100%;
+ }
+ 
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 50px 20%;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+button {
+    width: 15rem;
+    padding: 12px 0;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+}
+
+#experience {
+    height: 100px;
+}
+
+.buttons {
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width:850px) {
+    .login-form {
+        padding: 50px 10%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .buttons__cta {
+        width: 100%;
+    }
+}
